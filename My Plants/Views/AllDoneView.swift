@@ -16,8 +16,6 @@ struct AllDoneView: View {
                 .scaledToFit()
                 .frame(width: 140)
                 .padding(30) // مسافة بين الصورة والدائرة
-                .background(Circle().fill(Color(.secondarySystemBackground))) // دائرة رمادية ورا الصورة
-
             VStack(spacing: 8) {
                 Text("All Done! 🎉")
                     .font(.title2)
