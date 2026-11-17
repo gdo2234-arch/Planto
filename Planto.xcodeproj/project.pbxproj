@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AA0000000000000000000002 /* My Plants */ = {
+		AA0000000000000000000002 /* Planto */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "My Plants";
+			path = Planto;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		AA0000000000000000000004 = {
 			isa = PBXGroup;
 			children = (
-				AA0000000000000000000002 /* My Plants */,
+				AA0000000000000000000002 /* Planto */,
 				AA0000000000000000000005 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AA0000000000000000000002 /* My Plants */,
+				AA0000000000000000000002 /* Planto */,
 			);
 			name = Planto;
 			packageProductDependencies = (
