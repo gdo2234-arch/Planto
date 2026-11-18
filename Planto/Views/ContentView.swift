@@ -35,6 +35,8 @@ struct ContentView: View {
         .onChange(of: scenePhase) { // كل ما تتغير حالة التطبيق
             if scenePhase == .active { // اذا رجع المستخدم للتطبيق
                 viewModel.refreshReminders() // نحدث الاشعارات (يمكن جا يوم جديد)
+            } else if scenePhase == .background { // اذا طلع المستخدم من التطبيق
+                viewModel.refreshReminders() // نجهز الاشعارات من جديد، فتبدا الـ 10 ثواني من الحين
             }
         }
     }

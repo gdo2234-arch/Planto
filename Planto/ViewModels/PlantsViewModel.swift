@@ -22,7 +22,7 @@ class PlantsViewModel {
     private let startedKey = "hasStarted" // اسم الدرج اللي نحفظ فيه هل بدا ولا لا
 
     // 🧪 للتجربة: خلها true عشان يجيك الاشعار بعد 10 ثواني بدل الساعة 9 الصبح (لا تنسى ترجعها false)
-    private let isTesting = false
+    private let isTesting = true // 🧪 وضع التجربة: الاشعار يطلع بعد 10 ثواني
     private let reminderHour = 9 // ساعة التذكير: 9 الصبح
 
     // init يشتغل اول ما نوظف الطباخ
